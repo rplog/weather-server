@@ -48,7 +48,7 @@ You can get a free API key from https://openweathermap.org/api
 ## Run the server
 
 ```
-node server.js
+node weather.js
 ```
 
 The server will start on:
@@ -76,13 +76,13 @@ Response
 ### Get Weather
 
 ```
-GET /weather?city=<city-name>
+GET api/weather?city=<city-name>
 ```
 
 Example
 
 ```
-GET /weather?city=Delhi
+GET api/weather?city=Delhi
 ```
 
 Example Response
